@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Simple Tailwind Starter</title>
   </head>
   <body>
     
     <div class="container mx-auto flex">
-      <div class="flex w-3/6 flex-col">
-        <h1 class="text-4xl mb-4 text-red-900">Welcome</h1>
-        <p class="text-xl">Start building your Tailwind project</p>
-        <h1 class="text-4xl text-blue-300"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi hic laborum repellendus ipsa similique quia animi esse, doloremque vel odio provident beatae expedita sed quod! Voluptatem cum animi quis blanditiis?</h1>
+      <div class="flex w-3/6 flex-col justify-center">
+        <h1 class="text-6xl text-left mb-10 text-black font-semibold">Kompiuterių remontas <span class="text-blue-500">Vilniuje.</span></h1>
+        <p class="text-2xl text-left text-gray-500 mb-5 pr-40">Greitai nustatysime gedimą bei rasime sprendimą. Taisome, tobuliname bei surenkame kompiuterius. Kreipkitės jau šiandien, visada padėsime!</p>
+        <div class="mb-5">
+          <button class="text-lg rounded-full px-6 py-3 my-5 bg-gradient-to-r bg-blue-500 text-white">Remonto kainos</button>
+          <button class="text-lg rounded-full px-6 py-3 border-2 ml-5"><img class="h-4 inline mr-1" src="\img\naujas-it112\naujas-it112\icons\kontaktai\telefonas.png" alt="Įvykdyta">+370 658 04435</button>
+        </div>
+        <h1 class="text-2xl text-left text-blue-500"><img class="h-5 inline mr-3" src="\img\green-check.png" alt="Įvykdyta">Geriausios <span class="text-gray-500">kompiuterių remonto kainos Vilniuje!</span></h1>
       </div>
-      <div class="flex w-3/6">
-        <img src="https://images.unsplash.com/photo-1713689951355-7df0f904e54d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+      <div class="flex w-3/6 flex-col">
+        <img src="\img\komp.png" alt="Remontas">
       </div>
 
     </div>
