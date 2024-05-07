@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.article-container {
+    contain: paint;
+}
+
+html {
+    font-family: "Inter", sans-serif!important;
+}
+
+.gradient {
+    fill: linear-gradient(90deg, rgba(0,132,255,1) 0%, rgba(0,90,255,1) 100%);
+}
+
+.checked-list{
+    list-style: none;
+    padding: 10px 35px;
+    background-image: url('../icons/checked.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+}
+
+.unchecked-list{
+    list-style: none;
+    padding: 10px 35px;
+    background-image: url('../icons/unchecked.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+}
