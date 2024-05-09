@@ -12,18 +12,23 @@
   </head>
   <body>
     
-    <div class="container mx-auto flex">
-      <div class="flex w-3/6 flex-col justify-center">
-        <h1 class="text-6xl text-left mb-10 text-black font-semibold">Kompiuterių remontas <span class="text-blue-500">Vilniuje.</span></h1>
-        <p class="text-2xl text-left text-gray-500 mb-5 pr-40">Greitai nustatysime gedimą bei rasime sprendimą. Taisome, tobuliname bei surenkame kompiuterius. Kreipkitės jau šiandien, visada padėsime!</p>
-        <div class="mb-5">
-          <button class="text-lg rounded-full px-6 py-3 my-5 bg-gradient-to-r bg-blue-500 text-white">Remonto kainos</button>
-          <button class="text-lg rounded-full px-6 py-3 border-2 ml-5"><img class="h-4 inline mr-1" src="\img\naujas-it112\naujas-it112\icons\kontaktai\telefonas.png" alt="Įvykdyta">+370 658 04435</button>
+    <div class="container mx-auto flex flex-col lg:flex-row xl:flex-row">
+      <div class="w-full lg:w-3/6 xl:w-3/6 flex flex-col order-2 lg:order-1 xl:order-1 p-5">
+        <h1 class="text-5xl lg:text-5xl xl:text-7xl text-center lg:text-left xl:text-left mb-5 xl:my-10 mx-5 lg:mx-0 xl:mx-0 text-black font-bold">Kompiuterių remontas <span class="bg-gradient-to-r from-blue-500 to-blue-600 inline-block text-transparent bg-clip-text pb-3">Vilniuje.</span></h1>
+        <p class="text-xl lg:text-xl xl:text-2xl text-center lg:text-left xl:text-left text-gray-500 mb-3 mx-5 lg:mx-0 xl:mx-0 xl:pr-40">Greitai nustatysime gedimą bei rasime sprendimą. Taisome, tobuliname bei surenkame kompiuterius. Kreipkitės jau šiandien, visada padėsime!</p>
+        <div class="flex flex-col lg:flex-row xl:flex-row items-center lg:items-start xl:items-start text-lg mb-5 mx-5 lg:mx-0 xl:mx-0">
+          <button class="rounded-full py-3 w-4/6 lg:w-3/6 xl:w-2/6 xl:px-5 my-5 bg-gradient-to-r from-blue-500 to-blue-600 text-white">Remonto kainos</button>
+          <button class="rounded-full py-3 w-4/6 lg:w-3/6 xl:w-2/6 xl:px-5 lg:ml-5 xl:ml-5 lg:my-5 xl:my-5 border-2"><img class="h-4 inline mr-1" src="\img\naujas-it112\naujas-it112\icons\kontaktai\telefonas.png" alt="Įvykdyta">+370 658 04435</button>
         </div>
-        <h1 class="text-2xl text-left text-blue-500"><img class="h-5 inline mr-3" src="\img\green-check.png" alt="Įvykdyta">Geriausios <span class="text-gray-500">kompiuterių remonto kainos Vilniuje!</span></h1>
+        <p class="text-xl xl:text-2xl text-center lg:text-left xl:text-left mx-5 lg:mx-0 xl:mx-0 text-blue-500">
+          <span class="lg:inline xl:inline flex justify-center lg:justify-start xl:justify-start">
+            <img class="lg:inline xl:inline h-5 mr-3" src="\img\green-check.png" alt="Įvykdyta">
+          </span>
+          Geriausios <span class="text-gray-500">kompiuterių remonto kainos Vilniuje!</span>
+        </p>
       </div>
-      <div class="flex w-3/6 flex-col">
-        <img src="\img\komp.png" alt="Remontas">
+      <div class="flex w-full lg:w-3/6 xl:w-3/6 order-1 lg:order-2 xl:order-2 px-10 pt-5 md:pr-5 xl:p-5">
+        <img src="\img\komp.png" alt="Remontas" class="w-full object-contain mx-auto">
       </div>
 
     </div>
