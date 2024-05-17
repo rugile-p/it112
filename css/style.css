@@ -703,6 +703,14 @@ video {
   margin-bottom: 30px;
 }
 
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
+.mb-\[60px\] {
+  margin-bottom: 60px;
+}
+
 .mb-\[80px\] {
   margin-bottom: 80px;
 }
@@ -841,6 +849,10 @@ video {
 
 .h-\[40px\] {
   height: 40px;
+}
+
+.h-\[60px\] {
+  height: 60px;
 }
 
 .h-full {
@@ -1143,6 +1155,11 @@ video {
   padding-bottom: 15px;
 }
 
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .py-\[60px\] {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1312,6 +1329,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -1324,32 +1349,21 @@ html {
   font-family: "Inter", sans-serif!important;
 }
 
-.swiper-gradient:hover {
-  fill: url(#SwiperGradient);
-}
-
-.swiper-gradient-rev:hover {
-  fill: url(#SwiperGradientRev);
-}
-
-.gradient {
-  fill: url(#IconGradient);
-}
-
 .checked-list{
   list-style: none;
   padding: 10px 35px;
-  background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 329.954 329.954" style="enable-background:new 0 0 329.954 329.954;" xml:space="preserve"> <path id="XMLID_224_" d="M325.56,73.335l-42.427-42.426c-5.857-5.857-15.355-5.858-21.213,0L110.461,182.37l-42.428-42.428 c-2.813-2.813-6.628-4.394-10.606-4.394c-3.978,0-7.794,1.581-10.607,4.394L4.393,182.369c-5.857,5.858-5.857,15.355,0,21.213 l95.457,95.463c2.813,2.813,6.629,4.393,10.607,4.393c3.978,0,7.794-1.581,10.606-4.393L325.56,94.548	c2.813-2.813,4.394-6.628,4.394-10.606C329.954,79.963,328.373,76.148,325.56,73.335z M110.458,267.225l-74.245-74.249	l21.214-21.214l42.428,42.428c2.813,2.813,6.628,4.394,10.606,4.394c3.979,0,7.793-1.581,10.607-4.394L272.527,62.728l21.213,21.213	L110.458,267.225z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>');
+  background-image: url('../icons/checked.svg');
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: 15px;
   background-size: 20px;
+  display: inline-block;
 }
 
 .unchecked-list{
   list-style: none;
   padding: 10px 35px;
-  background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 284.559 284.559" style="enable-background:new 0 0 284.559 284.559;" xml:space="preserve"><path id="XMLID_227_" d="M205.919,142.279l74.246-74.247c2.814-2.813,4.394-6.628,4.394-10.606c0-3.979-1.581-7.793-4.394-10.607 L237.738,4.393c-5.857-5.858-15.355-5.858-21.213,0l-74.246,74.246L68.033,4.394c-5.857-5.858-15.355-5.858-21.213,0L4.394,46.819 C1.581,49.632,0,53.447,0,57.426c0,3.978,1.58,7.793,4.394,10.606l74.246,74.247L4.394,216.526c-5.858,5.858-5.858,15.355,0,21.213 l42.427,42.427c2.813,2.813,6.628,4.394,10.606,4.394c3.978,0,7.793-1.581,10.606-4.394l74.246-74.246l74.246,74.246 c2.813,2.813,6.628,4.394,10.606,4.394c3.978,0,7.794-1.581,10.607-4.394l42.427-42.427c5.858-5.858,5.858-15.355,0-21.213 L205.919,142.279z M227.132,248.345l-74.246-74.247c-2.813-2.813-6.628-4.393-10.606-4.393s-7.794,1.58-10.606,4.393l-74.246,74.247 l-21.213-21.213l74.246-74.246c5.858-5.857,5.858-15.355,0-21.213L36.214,57.426l21.213-21.213l74.247,74.246 c5.857,5.858,15.355,5.858,21.213,0l74.246-74.246l21.213,21.213L174.1,131.673c-5.858,5.858-5.858,15.355,0,21.213l74.246,74.246   L227.132,248.345z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>');
+  background-image: url('../icons/unchecked.svg');
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: 15px;
@@ -1400,6 +1414,15 @@ html {
   fill: #d6eaff;
 }
 
+.hover\:text-\[\#0084ff\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 132 255 / var(--tw-text-opacity));
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1410,8 +1433,22 @@ html {
     width: 100%;
   }
 
+  .md\:columns-3 {
+    -moz-columns: 3;
+         columns: 3;
+  }
+
+  .md\:px-\[30px\] {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   .md\:pr-5 {
     padding-right: 1.25rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   @media not all and (min-width: 1024px) {
@@ -1516,8 +1553,16 @@ html {
     height: 500px;
   }
 
+  .lg\:h-\[550px\] {
+    height: 550px;
+  }
+
   .lg\:h-\[600px\] {
     height: 600px;
+  }
+
+  .lg\:h-\[700px\] {
+    height: 700px;
   }
 
   .lg\:h-\[850px\] {
@@ -1599,9 +1644,24 @@ html {
          column-gap: 0.625rem;
   }
 
+  .lg\:gap-x-4 {
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+
   .lg\:gap-x-\[30px\] {
     -moz-column-gap: 30px;
          column-gap: 30px;
+  }
+
+  .lg\:gap-x-6 {
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
+  }
+
+  .lg\:gap-x-5 {
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
   }
 
   .lg\:px-10 {
@@ -1617,6 +1677,11 @@ html {
   .lg\:px-\[0px\] {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:px-\[30px\] {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .lg\:py-5 {
@@ -1740,6 +1805,14 @@ html {
     margin-bottom: 40px;
   }
 
+  .xl\:mb-\[50px\] {
+    margin-bottom: 50px;
+  }
+
+  .xl\:mb-\[70px\] {
+    margin-bottom: 70px;
+  }
+
   .xl\:ml-\[50px\] {
     margin-left: 50px;
   }
@@ -1768,20 +1841,8 @@ html {
     height: 46px;
   }
 
-  .xl\:h-\[500px\] {
-    height: 500px;
-  }
-
-  .xl\:h-\[550px\] {
-    height: 550px;
-  }
-
   .xl\:h-\[600px\] {
     height: 600px;
-  }
-
-  .xl\:h-\[650px\] {
-    height: 650px;
   }
 
   .xl\:w-2\/6 {
@@ -1799,6 +1860,11 @@ html {
   .xl\:columns-2 {
     -moz-columns: 2;
          columns: 2;
+  }
+
+  .xl\:columns-4 {
+    -moz-columns: 4;
+         columns: 4;
   }
 
   .xl\:space-x-3 > :not([hidden]) ~ :not([hidden]) {

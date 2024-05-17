@@ -1,44 +1,102 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 284.559 284.559" style="enable-background:new 0 0 284.559 284.559;" xml:space="preserve">
-<path id="XMLID_227_" d="M205.919,142.279l74.246-74.247c2.814-2.813,4.394-6.628,4.394-10.606c0-3.979-1.581-7.793-4.394-10.607
-	L237.738,4.393c-5.857-5.858-15.355-5.858-21.213,0l-74.246,74.246L68.033,4.394c-5.857-5.858-15.355-5.858-21.213,0L4.394,46.819
-	C1.581,49.632,0,53.447,0,57.426c0,3.978,1.58,7.793,4.394,10.606l74.246,74.247L4.394,216.526c-5.858,5.858-5.858,15.355,0,21.213
-	l42.427,42.427c2.813,2.813,6.628,4.394,10.606,4.394c3.978,0,7.793-1.581,10.606-4.394l74.246-74.246l74.246,74.246
-	c2.813,2.813,6.628,4.394,10.606,4.394c3.978,0,7.794-1.581,10.607-4.394l42.427-42.427c5.858-5.858,5.858-15.355,0-21.213
-	L205.919,142.279z M227.132,248.345l-74.246-74.247c-2.813-2.813-6.628-4.393-10.606-4.393s-7.794,1.58-10.606,4.393l-74.246,74.247
-	l-21.213-21.213l74.246-74.246c5.858-5.857,5.858-15.355,0-21.213L36.214,57.426l21.213-21.213l74.247,74.246
-	c5.857,5.858,15.355,5.858,21.213,0l74.246-74.246l21.213,21.213L174.1,131.673c-5.858,5.858-5.858,15.355,0,21.213l74.246,74.246
-	L227.132,248.345z"/>
-<g>
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 284.559 284.559"
+   style="enable-background:new 0 0 284.559 284.559;"
+   xml:space="preserve"
+   sodipodi:docname="unchecked.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs15"><linearGradient
+     id="linearGradient15"
+     inkscape:collect="always"><stop
+       style="stop-color:#0084ff;stop-opacity:1;"
+       offset="0"
+       id="stop15" /><stop
+       style="stop-color:#005aff;stop-opacity:1;"
+       offset="1"
+       id="stop16" /></linearGradient><linearGradient
+     inkscape:collect="always"
+     xlink:href="#linearGradient15"
+     id="linearGradient16"
+     x1="0"
+     y1="142.27975"
+     x2="284.559"
+     y2="142.27975"
+     gradientUnits="userSpaceOnUse" /></defs><sodipodi:namedview
+   id="namedview15"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   inkscape:zoom="1.0101206"
+   inkscape:cx="-52.963971"
+   inkscape:cy="255.91003"
+   inkscape:window-width="1920"
+   inkscape:window-height="1009"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<path
+   id="XMLID_227_"
+   d="M205.919,142.279l74.246-74.247c2.814-2.813,4.394-6.628,4.394-10.606c0-3.979-1.581-7.793-4.394-10.607  L237.738,4.393c-5.857-5.858-15.355-5.858-21.213,0l-74.246,74.246L68.033,4.394c-5.857-5.858-15.355-5.858-21.213,0L4.394,46.819  C1.581,49.632,0,53.447,0,57.426c0,3.978,1.58,7.793,4.394,10.606l74.246,74.247L4.394,216.526c-5.858,5.858-5.858,15.355,0,21.213  l42.427,42.427c2.813,2.813,6.628,4.394,10.606,4.394c3.978,0,7.793-1.581,10.606-4.394l74.246-74.246l74.246,74.246  c2.813,2.813,6.628,4.394,10.606,4.394c3.978,0,7.794-1.581,10.607-4.394l42.427-42.427c5.858-5.858,5.858-15.355,0-21.213  L205.919,142.279z M227.132,248.345l-74.246-74.247c-2.813-2.813-6.628-4.393-10.606-4.393s-7.794,1.58-10.606,4.393l-74.246,74.247  l-21.213-21.213l74.246-74.246c5.858-5.857,5.858-15.355,0-21.213L36.214,57.426l21.213-21.213l74.247,74.246  c5.857,5.858,15.355,5.858,21.213,0l74.246-74.246l21.213,21.213L174.1,131.673c-5.858,5.858-5.858,15.355,0,21.213l74.246,74.246  L227.132,248.345z"
+   style="fill:url(#linearGradient16)" />
+<g
+   id="g1">
 </g>
-<g>
+<g
+   id="g2">
 </g>
-<g>
+<g
+   id="g3">
 </g>
-<g>
+<g
+   id="g4">
 </g>
-<g>
+<g
+   id="g5">
 </g>
-<g>
+<g
+   id="g6">
 </g>
-<g>
+<g
+   id="g7">
 </g>
-<g>
+<g
+   id="g8">
 </g>
-<g>
+<g
+   id="g9">
 </g>
-<g>
+<g
+   id="g10">
 </g>
-<g>
+<g
+   id="g11">
 </g>
-<g>
+<g
+   id="g12">
 </g>
-<g>
+<g
+   id="g13">
 </g>
-<g>
+<g
+   id="g14">
 </g>
-<g>
+<g
+   id="g15">
 </g>
 </svg>
