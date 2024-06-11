@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Sužinok kainą</title>
+  </head>
+  <body class="flex flex-col items-center justify-start min-h-screen">
+    <div class="container">
+      <div id="step1" class="step active lg:w-[775px] mx-3 lg:mx-auto flex flex-col items-center justify-center min-h-screen">
+        <h1 class="text-[30px] lg:text-[42px] text-[#092641] font-bold my-[48px] text-center">Pasirinkite įrenginį</h1>
+        <div class="flex flex-col lg:flex-row lg:justify-center pb-[46px] space-y-[12px] lg:space-y-0 lg:space-x-[12px]">
+          <div class="device-option w-full lg:w-1/3 px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] flex flex-col items-center justify-center cursor-pointer text-center">
+            <input type="checkbox" class="hidden-checkbox" data-device="Nešiojamas kompiuteris" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\full-size.svg" alt="Nešiojamas kompiuteris">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Nešiojamas kompiuteris</p>
+          </div>
+          <div class="device-option w-full lg:w-1/3 px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] flex flex-col items-center justify-center cursor-pointer text-center">
+            <input type="checkbox" class="hidden-checkbox" data-device="Stacionarus kompiuteris" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\full-size.svg" alt="Stacionarus kompiuteris">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Stacionarus kompiuteris</p>
+          </div>
+          <div class="device-option w-full lg:w-1/3 px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] flex flex-col items-center justify-center cursor-pointer text-center">
+            <input type="checkbox" class="hidden-checkbox" data-device="Telefonas" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\full-size.svg" alt="Telefonas">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Telefonas</p>
+          </div>
+        </div>
+        <div class="flex flex-row justify-center space-x-[12px]">
+          <button id="" class="text-[16px] lg:text-[18px] w-[140px] border border-[#e5f2ff] text-black py-[20px] rounded-full">Grįžti</button>
+          <button id="step1Next" class="text-[16px] lg:text-[18px] w-[140px] bg-gradient-to-r from-[#0084ff] to-[#005aff] text-white py-[20px] rounded-full">Pirmyn</button>
+        </div>
+      </div>
+
+      <div id="step2" class="step mx-3 lg:mx-auto my-[48px] flex flex-col items-center justify-start">
+        <h1 class="text-[30px] lg:text-[42px] text-[#092641] font-bold my-[48px] text-center">Pasirinkite gedimą</h1>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-[12px] justify-center pb-[46px]">
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Programinė" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\solutions.svg" alt="Programinė">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Programinė</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Aplietas" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\bubble.svg" alt="Aplietas">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Aplietas</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Lizdas" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\connect.svg" alt="Lizdas">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Lizdas</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Lėtas" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\snail.svg" alt="Lėtas">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Lėtas</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Kaista" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\fever.svg" alt="Kaista">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Kaista</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Ekranas" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\full-size.svg" alt="Ekranas">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Ekranas</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Duomenys" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\folder.svg" alt="Duomenys">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Duomenys</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Valymas" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\clean-code.svg" alt="Valymas">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Valymas</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Baterija" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\low-battery.svg" alt="Baterija">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Baterija</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Neįsijungia" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\power.svg" alt="Neįsijungia">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Neįsijungia</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Garsas" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\mute.svg" alt="Garsas">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Garsas</p>
+          </div>
+          <div class="issue-option px-[20px] py-[38px] border border-[#e5f2ff] rounded-[15px] cursor-pointer flex flex-col items-center justify-center text-center">
+            <input type="checkbox" class="hidden-checkbox" data-issue="Kamera" />
+            <img class="items-center justify-center h-[70px] mb-[14px]" src=".\icons\video-camera.svg" alt="Kamera">
+            <p class="text-[16px] lg:text-[18px] text-[#6f8293]">Kamera</p>
+          </div>
+        </div>
+        <div class="flex flex-row justify-center space-x-[12px]">
+          <button id="step2Prev" class="text-[16px] lg:text-[18px] w-[140px] border border-[#e5f2ff] text-black py-[20px] rounded-full">Grįžti</button>
+          <button id="step2Next" class="text-[16px] lg:text-[18px] w-[140px] bg-gradient-to-r from-[#0084ff] to-[#005aff] text-white py-[20px] rounded-full">Pirmyn</button>
+        </div>
+      </div>
+
+      <div id="step3" class="step lg:w-[775px] mx-3 lg:mx-auto mb-[48px] flex flex-col items-center justify-start">
+        <h1 class="text-[30px] lg:text-[42px] text-[#092641] font-bold my-[48px] text-center">Gedimo aprašymas</h1>
+        <form id="finalForm" class="text-[16px] lg:text-[18px] w-full">
+          <div class="mb-[21px]">
+            <label class="block mb-[15px]">Pasirinkite, kokiu būdu norite gauti atsakymą:</label>
+            <div>
+              <label class="inline-flex items-center">
+                <input type="radio" name="contactMethod" value="email" class="form-radio" checked />
+                <span class="ml-2">Elektroniniu paštu</span>
+              </label>
+              <label class="inline-flex items-center ml-6">
+                <input type="radio" name="contactMethod" value="phone" class="form-radio" />
+                <span class="ml-2">Telefonu</span>
+              </label>
+            </div>
+          </div>
+          <div class="mb-[21px]">
+            <label class="block mb-[15px]">Jūsų elektroninis paštas</label>
+            <input type="email" name="email" class="w-full p-2 border border-[#e5f2ff] rounded-[20px] bg-white" placeholder="El.paštas" required />
+          </div>
+          <div class="mb-[21px]">
+            <label class="block mb-[15px]">Jūsų telefono numeris</label>
+            <input type="text" name="phone" class="w-full p-2 border border-[#e5f2ff] rounded-[20px] bg-white" placeholder="Telefonas" required />
+          </div>
+          <div class="mb-[21px]">
+            <label class="block mb-[15px]">Įrenginio tikslus modelis</label>
+            <input type="text" name="deviceModel" class="w-full p-2 border border-[#e5f2ff] rounded-[20px] bg-white" placeholder="Pavyzdžiui: HP EliteBook 840 G5..." required />
+          </div>
+          <div class="mb-[32px]">
+            <label class="block mb-[15px]">Trumpai aprašykite įrenginio gedimą</label>
+            <textarea name="issueDescription" class="w-full p-2 border border-[#e5f2ff] rounded-[20px] bg-white" placeholder="Jūsų tekstas..." rows="4" required></textarea>
+          </div>
+          <div class="flex flex-row justify-center space-x-[12px]">
+            <button id="step3Prev" class="text-[16px] lg:text-[18px] w-[140px] border border-[#e5f2ff] text-black py-[20px] rounded-full">Grįžti</button>
+            <button type="submit" class="text-[16px] lg:text-[18px] w-[140px] bg-gradient-to-r from-[#0084ff] to-[#005aff] text-white py-[20px] rounded-full">Pirmyn</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const steps = document.querySelectorAll(".step");
+        const nextButtons = document.querySelectorAll("[id$='Next']");
+        const prevButtons = document.querySelectorAll("[id$='Prev']");
+        const deviceOptions = document.querySelectorAll(".device-option");
+        const issueOptions = document.querySelectorAll(".issue-option");
+
+        let currentStep = 0;
+        let selectedDevice = null;
+        let selectedIssues = [];
+
+        nextButtons.forEach(button => {
+          button.addEventListener("click", () => {
+            if (currentStep === 0 && !selectedDevice) {
+              alert("Pasirinkite įrenginį.");
+              return;
+            }
+            if (currentStep === 1 && selectedIssues.length === 0) {
+              alert("Pasirinkite gedimą.");
+              return;
+            }
+            steps[currentStep].classList.remove("active");
+            currentStep++;
+            steps[currentStep].classList.add("active");
+          });
+        });
+
+        prevButtons.forEach(button => {
+          button.addEventListener("click", () => {
+            steps[currentStep].classList.remove("active");
+            currentStep--;
+            steps[currentStep].classList.add("active");
+          });
+        });
+
+        deviceOptions.forEach(option => {
+          option.addEventListener("click", () => {
+            const checkbox = option.querySelector('.hidden-checkbox');
+            deviceOptions.forEach(opt => {
+              opt.classList.remove("selected");
+              opt.querySelector('.hidden-checkbox').checked = false;
+            });
+            option.classList.add("selected");
+            checkbox.checked = true;
+            selectedDevice = checkbox.getAttribute("data-device");
+          });
+        });
+
+        issueOptions.forEach(option => {
+          option.addEventListener("click", () => {
+            const checkbox = option.querySelector('.hidden-checkbox');
+            option.classList.toggle("selected");
+            checkbox.checked = !checkbox.checked;
+            const issue = checkbox.getAttribute("data-issue");
+            if (checkbox.checked) {
+              selectedIssues.push(issue);
+            } else {
+              selectedIssues = selectedIssues.filter(i => i !== issue);
+            }
+          });
+        });
+
+        document.getElementById("finalForm").addEventListener("submit", (event) => {
+          event.preventDefault();
+          alert("Badumtss");
+        });
+      });
+    </script>
+  </body>
+</html>

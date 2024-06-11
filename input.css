@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .article-container {
     contain: paint;
 }
@@ -32,3 +30,20 @@ html {
     background-position-y: 15px;
     background-size: 20px;
 }
+
+.step {
+    display: none;
+  }
+  .step.active {
+    display: block;
+  }
+  .hidden-checkbox {
+    display: none;
+  }
+  .selected {
+    background-color: #e5f2ff;
+  }
+  .selected p {
+    color: #092641;
+    font-weight: 500;
+  }
