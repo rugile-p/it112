@@ -12,32 +12,21 @@ html {
     font-family: "Inter", sans-serif!important;
 }
 
-.swiper-gradient:hover {
-    fill: url(#SwiperGradient);
-}
-
-.swiper-gradient-rev:hover {
-    fill: url(#SwiperGradientRev);
-}
-
-.gradient {
-    fill: url(#IconGradient);
-}
-
  .checked-list{
     list-style: none;
     padding: 10px 35px;
-    background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 329.954 329.954" style="enable-background:new 0 0 329.954 329.954;" xml:space="preserve"> <path id="XMLID_224_" d="M325.56,73.335l-42.427-42.426c-5.857-5.857-15.355-5.858-21.213,0L110.461,182.37l-42.428-42.428 c-2.813-2.813-6.628-4.394-10.606-4.394c-3.978,0-7.794,1.581-10.607,4.394L4.393,182.369c-5.857,5.858-5.857,15.355,0,21.213 l95.457,95.463c2.813,2.813,6.629,4.393,10.607,4.393c3.978,0,7.794-1.581,10.606-4.393L325.56,94.548	c2.813-2.813,4.394-6.628,4.394-10.606C329.954,79.963,328.373,76.148,325.56,73.335z M110.458,267.225l-74.245-74.249	l21.214-21.214l42.428,42.428c2.813,2.813,6.628,4.394,10.606,4.394c3.979,0,7.793-1.581,10.607-4.394L272.527,62.728l21.213,21.213	L110.458,267.225z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>');
+    background-image: url('../icons/checked.svg');
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: 15px;
     background-size: 20px;
+    display: inline-block;
 }
 
 .unchecked-list{
     list-style: none;
     padding: 10px 35px;
-    background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 284.559 284.559" style="enable-background:new 0 0 284.559 284.559;" xml:space="preserve"><path id="XMLID_227_" d="M205.919,142.279l74.246-74.247c2.814-2.813,4.394-6.628,4.394-10.606c0-3.979-1.581-7.793-4.394-10.607 L237.738,4.393c-5.857-5.858-15.355-5.858-21.213,0l-74.246,74.246L68.033,4.394c-5.857-5.858-15.355-5.858-21.213,0L4.394,46.819 C1.581,49.632,0,53.447,0,57.426c0,3.978,1.58,7.793,4.394,10.606l74.246,74.247L4.394,216.526c-5.858,5.858-5.858,15.355,0,21.213 l42.427,42.427c2.813,2.813,6.628,4.394,10.606,4.394c3.978,0,7.793-1.581,10.606-4.394l74.246-74.246l74.246,74.246 c2.813,2.813,6.628,4.394,10.606,4.394c3.978,0,7.794-1.581,10.607-4.394l42.427-42.427c5.858-5.858,5.858-15.355,0-21.213 L205.919,142.279z M227.132,248.345l-74.246-74.247c-2.813-2.813-6.628-4.393-10.606-4.393s-7.794,1.58-10.606,4.393l-74.246,74.247 l-21.213-21.213l74.246-74.246c5.858-5.857,5.858-15.355,0-21.213L36.214,57.426l21.213-21.213l74.247,74.246 c5.857,5.858,15.355,5.858,21.213,0l74.246-74.246l21.213,21.213L174.1,131.673c-5.858,5.858-5.858,15.355,0,21.213l74.246,74.246   L227.132,248.345z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>');
+    background-image: url('../icons/unchecked.svg');
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: 15px;
